@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-base bg-white;
+}
+
+body {
+  font-family: -apple-system, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  @apply leading-normal;
+  @apply text-neutral-900;
+  @apply subpixel-antialiased;
+}
+
+#content-container {
+  @apply max-w-[1440px] min-h-full py-4 mx-24;
+}
+
+#content-container header,
+#content-container main,
+#content-container article {
+  @apply mx-20 max-w-3xl;
+}
+
+header.article-title h1 {
+  @apply text-5xl leading-tight font-light text-neutral-900 mt-7 mb-8;
+}
+
+.applies-to {
+  @apply text-sm italic text-neutral-500 mb-10;
+}
+
+article.article-body {
+  @apply mt-5;
+}
+
+section.article-content {
+  @apply mt-9;
+}
+
+section.article-content p {
+  @apply my-4;
+}
+
+section.article-content section.instruct-step {
+  @apply block clear-both;
+}
+
+section.article-content figure {
+  @apply table flex-col p-1 mx-8 mb-4;
+}
+
+section.article-content figure img {
+  @apply pb-1;
+}
+
+section.article-content figcaption {
+  caption-side: bottom;
+  @apply table-caption italic text-sm text-center text-neutral-500 pb-2;
+}
+
+h2.section-title {
+  @apply text-2xl mt-11;
+}
+
+h3.subsection-title {
+  @apply text-xl mt-8;
+}
+
+#os-tabs {
+  @apply flex flex-col md:flex-row flex-wrap list-none border-b border-b-neutral-300 px-1 mb-4 pb-0 pt-2;
+}
+
+.nav-tabs .nav-item .nav-link {
+  @apply block;
+  @apply border-x-0 border-t-0 border-b-2 border-transparent;
+  @apply pb-1 mr-12;
+  @apply font-bold text-neutral-500;
+  @apply hover:border-transparent bg-transparent;
+  @apply focus:border-transparent;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  @apply border-black text-black;
+}

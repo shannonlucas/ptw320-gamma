@@ -17,6 +17,6 @@ git checkout -b main
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:shannonlucas/ptw320-gamma.git main:gh-pages
+git push -f https://github.com/shannonlucas/ptw320-gamma.git main:gh-pages
 
 cd -

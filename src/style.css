@@ -11,6 +11,7 @@ body {
   @apply leading-normal;
   @apply text-neutral-900;
   @apply subpixel-antialiased;
+  @apply bg-gray-50;
 }
 
 #content-container {
@@ -48,7 +49,7 @@ section.article-content section.instruct-step {
 }
 
 section.article-content figure {
-  @apply table flex-col p-1 mx-8 mb-4;
+  @apply table flex-col p-1 mx-8 mb-4 border border-neutral-300 bg-white;
 }
 
 section.article-content figure.wide-figure {
@@ -56,7 +57,7 @@ section.article-content figure.wide-figure {
 }
 
 section.article-content figure img {
-  @apply pb-1;
+  @apply m-1;
 }
 
 section.article-content figcaption {

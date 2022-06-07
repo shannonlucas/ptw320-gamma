@@ -4,7 +4,7 @@ This was the third team project for PTW 320 (Intermediate Technical Writing) at 
 
 Team members and roles:
 
-- Jennifer B. as writer, performed the audience analysis and wrote the project proposal and content.
+- Jennifer B. (writer) performed the audience analysis and wrote the project proposal and content.
 - Sarah H. (editor) provided all levels of editing during the project.
 - Shannon L. (production specialist) built the final deliverable and provided additional editing support.
 

@@ -6,7 +6,7 @@ Team members and roles:
 
 - Jennifer B. (writer) performed the audience analysis and wrote the project proposal and content.
 - Sarah H. (editor) provided all levels of editing during the project.
-- Shannon L. (production specialist) built the final deliverable and provided additional editing support.
+- [Shannon L.](https://github.com/shannonlucas/) (production specialist) built the final deliverable and provided additional editing support.
 
 ## Project proposal
 
